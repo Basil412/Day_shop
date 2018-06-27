@@ -127,7 +127,7 @@ router.get('/login/google', passport.authenticate('google', {
 
 
 router.get('/login/google/callback', (req, res) => {
-    res.redirect('http://localhost:3000/products')
+    res.redirect('http://https://frozen-bayou-28447.herokuapp.com/products')
 });
 
 module.exports = router;
